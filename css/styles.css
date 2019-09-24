@@ -1,0 +1,30 @@
+:root {
+  font-family: 'Montserrat', sans-serif;
+}
+span {
+  font-weight: 600;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+.main-picture {
+  max-width: 100%;
+}
+.flex-item {
+  width: 200px;
+  padding: 20px;
+  font-size: 12 px;
+  text-align: center;
+}
+.title {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 10px;
+}
+.specs {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0;
+}
