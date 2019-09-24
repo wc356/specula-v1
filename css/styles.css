@@ -4,27 +4,35 @@
 span {
   font-weight: 600;
 }
+.crop-box {
+  display: flex;
+  overflow: hidden;
+}
 .flex-container {
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  padding: 10px;
+  padding: 8px;
 }
 .main-picture {
   max-width: 100%;
 }
 .flex-item {
-  width: 200px;
-  padding: 20px;
-  font-size: 12 px;
+  width: 225px;
+  padding: 13px;
+  font-size: 14px;
   text-align: center;
 }
 .title {
   display: inline-block;
   text-decoration: underline;
-  padding: 10px;
+  padding: 8px 0px 0px 0px;
+  font-weight: 600;
 }
 .specs {
+  display: inline-block;
   text-align: left;
   list-style-type: none;
   padding-left: 0;
+  font-weight: 300;
 }
