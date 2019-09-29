@@ -4,15 +4,15 @@
 span {
   font-weight: 600;
 }
-.crop-box {
-  display: flex;
-  overflow: hidden;
-}
 .flex-container {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   padding: 8px;
+}
+.crop-box {
+  display: flex;
+  overflow: hidden;
 }
 .main-picture {
   max-width: 100%;
