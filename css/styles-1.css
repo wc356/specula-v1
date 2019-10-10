@@ -1,45 +1,50 @@
 :root {
   font-family: 'Poppins', sans-serif;
 }
+/* remove margins and borders */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.header {
+/* sticky nav-bar */
+.navbar {
   display: flex;
   align-items: center;
-  height: 10vh;
+  height: 75px;
   z-index: 1;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-  background: powderblue;
+  background-color: rgba(255,255,255,0.75);
+  border-bottom: solid rgb(221, 221, 221) 2px;
 }
-.box-shadow {
-  box-shadow; 5px 5px black;
-}
-#title {
-  flex: 1;
-  display: block;
+/* logo */
+.logo {
+  flex: 3;
+  display: flex;
+  position: relative;
+  align-items: center;
   padding: 0 0 0 25px;
-  color: white;
-  text-shadow: 2px 2px gray;
+  font-size: 25px;
+  color: #db0a5b;
+  text-shadow: 3px 3px 1px rgb(216, 216, 216);
 }
-.nav-items {
+/* nav-items to the right */
+.nav-container, .nav-items {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
+/* remove link underlines */
 a {
    text-decoration: none;
 }
+/* remove bullet-list and space-out */
 .why, .how, .tell-us {
   flex: 1;
-  display: flex;
-  justify-content: space-around;
+  display: block;
   list-style: none;
 }
 .sidebar {
