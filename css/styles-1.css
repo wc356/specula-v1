@@ -11,14 +11,14 @@
 .navbar {
   display: flex;
   align-items: center;
-  height: 75px;
+  height: 60px;
   z-index: 1;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(255,255,255,0.75);
-  border-bottom: solid rgb(221, 221, 221) 2px;
+  background-color: white;
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 /* logo */
 .logo {
@@ -27,9 +27,9 @@
   position: relative;
   align-items: center;
   padding: 0 0 0 25px;
-  font-size: 25px;
-  color: #db0a5b;
-  text-shadow: 3px 3px 1px rgb(216, 216, 216);
+  font-size: 27px;
+  color: #3455DB;
+  text-shadow: 3px 3px 1px rgb(233, 233, 233);
 }
 /* nav-items to the right */
 .nav-container, .nav-items {
