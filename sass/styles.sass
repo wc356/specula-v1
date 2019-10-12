@@ -8,11 +8,13 @@ $color-white: #fff
   font-family: $font-stack
   color: $color-black
 
+/* remove margins & padding */
 *
   margin: 0
   padding: 0
   box-sizing: border-box
 
+/* navigation bar */
 .navbar
   display: flex
   align-items: center
@@ -23,8 +25,9 @@ $color-white: #fff
   top: 0
   width: 100%
   background-color: $color-white
-  box-shadow: 0 1px 6px 0 #202124
+  box-shadow: 0 1px 6px 0 #BCBCBD
 
+/*  */
 .logo
   flex: 3
   display: flex
@@ -43,13 +46,14 @@ $color-white: #fff
   display: flex
   align-items: center
 
-a
-  text-decoration: none
+nav
+  a
+    text-decoration: none
 
-.why, .how, .tell-us
-  flex: 1
-  display: block
-  list-style: none
+  .why, .how, .tell-us
+    flex: 1
+    display: block
+    list-style: none
 
 .footer
   border: 1px solid blue
@@ -76,7 +80,6 @@ span
 
 .name-phone
   display: inline-block
-  text-decoration: underline
   padding: 8px 0px 10px 0px
   font-weight: 600
 
