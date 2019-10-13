@@ -27,7 +27,7 @@ $color-white: #fff
   background-color: $color-white
   box-shadow: 0 1px 6px 0 #BCBCBD
 
-/*  */
+/* logo position & color */
 .logo
   flex: 3
   display: flex
@@ -41,11 +41,13 @@ $color-white: #fff
   -webkit-background-clip: text
   -webkit-text-fill-color: transparent
 
+/* nav-items - positioning */
 .nav-container, .nav-items
   flex: 1
   display: flex
   align-items: center
 
+/* nav-items remove styling - underlines & bullets */
 nav
   a
     text-decoration: none
@@ -55,40 +57,53 @@ nav
     display: block
     list-style: none
 
-.footer
-  border: 1px solid blue
-
-span
-  font-weight: 600
-
+/* layout container - phones in flex */
 .flex-container
   display: flex
+  align-items: baseline
+  position: absolute
+  top: 60px
   flex-flow: row wrap
-  padding: 8px
-  border: 1px solid red
+  padding: 30px 10px 10px 10px
 
-.picture-main
-  max-width: 100%
-
+/* item - container */
 .flex-item
   width: 227px
   min-height: 400px
   padding: 13px
   font-size: 14px
   text-align: center
-  background-color: $color-white
+  //space out horizontally//
+  margin-left: auto
+  margin-right: auto
 
+/* image - width */
+.picture-main
+  max-width: 100%
+  -webkit-background-clip: image
+  shadow: 5px 5px 5px gray
+
+/* title font - formatting */
 .name-phone
   display: inline-block
   padding: 8px 0px 10px 0px
   font-weight: 600
 
+/* title font - make bold */
+span
+  font-weight: 600
+
+/* phone specifications */
 .specs
   display: inline-block
   text-align: left
   list-style-type: none
   padding-left: 0
   font-weight: 300
+
+/* footer */
+.footer
+  border: 1px solid blue
 
 @media screen and (max-width: 700px)
   .grid-phones

@@ -1,121 +1,133 @@
 :root {
-	font-family: 'Poppins', sans-serif;
-	color: #181818;
+  font-family: "Poppins", sans-serif;
+  color: #181818;
 }
 
 /* remove margins & padding */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* navigation bar */
 .navbar {
-	display: flex;
-	align-items: center;
-	height: 60px;
-	z-index: 1;
-	overflow: hidden;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: #fff;
-	box-shadow: 0 1px 6px 0 #bcbcbd;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  z-index: 1;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 6px 0 #BCBCBD;
 }
 
+/* logo position & color */
 .logo {
-	flex: 3;
-	display: flex;
-	width: 50px;
-	position: relative;
-	align-items: center;
-	padding: 0 0 0 25px;
-	font-size: 27px;
-	background: linear-gradient(to right, #5834db, #e60073);
-	background-size: 25%;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  flex: 3;
+  display: flex;
+  width: 50px;
+  position: relative;
+  align-items: center;
+  padding: 0 0 0 25px;
+  font-size: 27px;
+  background: linear-gradient(to right, #5834db, #E60073);
+  background-size: 25%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.nav-container,
-.nav-items {
-	flex: 1;
-	display: flex;
-	align-items: center;
+/* nav-items - positioning */
+.nav-container, .nav-items {
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
 
+/* nav-items remove styling - underlines & bullets */
 nav a {
-	text-decoration: none;
+  text-decoration: none;
 }
-nav .why,
-nav .how,
-nav .tell-us {
-	flex: 1;
-	display: block;
-	list-style: none;
+nav .why, nav .how, nav .tell-us {
+  flex: 1;
+  display: block;
+  list-style: none;
 }
 
-.footer {
-	border: 1px solid blue;
-}
-
-span {
-	font-weight: 600;
-}
-
+/* layout container - phones in flex */
 .flex-container {
-	display: flex;
-	flex-flow: row wrap;
-	padding: 8px;
-	border: 1px solid red;
+  display: flex;
+  align-items: baseline;
+  position: absolute;
+  top: 60px;
+  flex-flow: row wrap;
+  padding: 30px 10px 10px 10px;
 }
 
-.picture-main {
-	max-width: 100%;
-}
-
+/* item - container */
 .flex-item {
-	width: 227px;
-	min-height: 400px;
-	padding: 13px;
-	font-size: 14px;
-	text-align: center;
-	background-color: #fff;
+  width: 227px;
+  min-height: 400px;
+  padding: 13px;
+  font-size: 14px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* image - width */
+.picture-main {
+  max-width: 100%;
+  -webkit-background-clip: image;
+  shadow: 5px 5px 5px gray;
+}
+
+/* title font - formatting */
 .name-phone {
-	display: inline-block;
-	padding: 8px 0px 10px 0px;
-	font-weight: 600;
+  display: inline-block;
+  padding: 8px 0px 10px 0px;
+  font-weight: 600;
 }
 
+/* title font - make bold */
+span {
+  font-weight: 600;
+}
+
+/* phone specifications */
 .specs {
-	display: inline-block;
-	text-align: left;
-	list-style-type: none;
-	padding-left: 0;
-	font-weight: 300;
+  display: inline-block;
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: 300;
+}
+
+/* footer */
+.footer {
+  border: 1px solid blue;
 }
 
 @media screen and (max-width: 700px) {
-	.grid-phones {
-		flex-direction: column;
-	}
+  .grid-phones {
+    flex-direction: column;
+  }
 
-	.logo {
-		flex: 3;
-		display: flex;
-		width: 50px;
-		position: relative;
-		align-items: center;
-		padding: 0 0 0 25px;
-		font-size: 27px;
-		background: linear-gradient(to right, #5834db, #e60073);
-		background-size: 60%;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
+  .logo {
+    flex: 3;
+    display: flex;
+    width: 50px;
+    position: relative;
+    align-items: center;
+    padding: 0 0 0 25px;
+    font-size: 27px;
+    background: linear-gradient(to right, #5834db, #E60073);
+    background-size: 60%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
