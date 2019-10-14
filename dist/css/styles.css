@@ -190,6 +190,13 @@ span {
 /* colornav | labels hide */
 .colornav-label {
   visibility: hidden;
+  background-color: yellow;
+  text-align: center;
+  border-radius: 3px;
+  /* colornav | position */
+  position: relative;
+  z-index: 1;
+  top: 20px;
 }
 
 .colornav-button:hover .colornav-label {
