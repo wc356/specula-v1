@@ -187,6 +187,15 @@ span {
   background: white;
 }
 
+/* colornav | labels hide */
+.colornav-label {
+  visibility: hidden;
+}
+
+.colornav-button:hover .colornav-label {
+  visibility: visible;
+}
+
 /* footer */
 .footer {
   border: 1px solid blue;
