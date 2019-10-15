@@ -214,7 +214,7 @@ span {
   border: 1px solid blue;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 729px) {
   .grid-phones {
     flex-direction: column;
   }
@@ -229,7 +229,7 @@ span {
     padding: 0 0 0 25px;
     font-size: 27px;
     background: linear-gradient(to right, #5834db, #E60073);
-    background-size: 65%;
+    background-size: 45%;
     background-clip: text;
     text-fill-color: transparent;
     -webkit-background-clip: text;
