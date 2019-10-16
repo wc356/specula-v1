@@ -1,0 +1,9 @@
+name: iPhone 11
+released: $690
+manufacturer: Apple
+display: Liquid Retina HD
+size: 6.1 inch
+dimensions: 2.98 x 5.94 x 0.33 inch
+colors: black, green, yellow, lilac, red, white
+
+iphon
