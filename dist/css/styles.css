@@ -219,6 +219,12 @@ span {
   align-items: center;
 }
 
+.search-result-content {
+  position: absolute;
+  top: 80px;
+  right: 5vw;
+}
+
 @media screen and (max-width: 729px) {
   .grid-phones {
     flex-direction: column;
